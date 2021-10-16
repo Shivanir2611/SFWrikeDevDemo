@@ -6,6 +6,8 @@ global class CPQProductSearchPlugin implements SBQQ.ProductSearchPlugin {
     }
     //This is the change from Branch 1
     //This is my Branch 2
+    // This is my third change from Branch 2 
+    //THIS Is another change
     public String getAdditionalSearchFilters(SObject defaultQuote, Map<String, Object> fieldValuesMap) {
         final Id quoteId = (Id)defaultQuote.get('Id');
         final SBQQ__Quote__c quote = [
